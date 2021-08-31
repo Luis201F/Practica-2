@@ -62,7 +62,7 @@ public class Estudiante {
         return estado;
     }
     //Metodo publico para cambiar las calificaciones de los estudiantes
-    public void CambiarCalificacion(float calificacion){
+    public void CambiarCalificacion(double calificacion){
         this.calificacion=calificacion;
     }
    
