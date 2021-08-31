@@ -51,7 +51,7 @@ public class Estudiante {
     //Metodo publico para asignar si el alumno reprobo el curso
     public String AsignarEstado(){
         
-        if(calificacion<60)
+        if(calificacion<=59)
         {
             estado="Reprobado";
         }
